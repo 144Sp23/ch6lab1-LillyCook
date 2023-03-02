@@ -36,16 +36,64 @@ header h1 {
     font-style: italic;
 }
 
-/* Style rules for navigation area */
-nav {
-    background-color: #373684;
+}
+/*MEdia Query for Tablet Viewport*/
+/*Tablet Viewport: Show tab-desk class, hide mobile class*/
+Tablet Viewport: Style rules for nav area
+nav li{
+   display: inline-block
+   border: none
+   border-right: 1px solid #e5e9fc
+       right padding: 0.5em
+       bottom padding:0.25em
+Tablet Viewport: Style Rule for map
+       {width:500px
+       heaight:450px
+}
+    
+    /*Meadia Query for desktop viewport*/
+    screen and (min-width: 769px)
+    {
+        header padding:2%
+    }
+    nav li {
+        top padding:0.5em
+        bottom padding:0.5em
+            left padding: 1.5em
+            right padding: 1.5em 
+            background-color: #e5e9fc
+/*Desktop Viewport: Style rules for main content*/
+            #info ul {
+                margin-left: 5%
+                    font-size- 1.5em
+        }
+/*Media Query for print*/
+        {
+            background-color: #fff
+                color: #000
+        }
+    }
+{display: block;}
+.mobile {
+    display: none;
+}
+/*Tablet Viewport: Style rule for header content*/
+span.tab-desk {
+        display: inline;
 }
 
-nav ul {
-    list-style-type: none;
+@media
+
+nav li {
+    list-style-type: none
     text-align: center;
 }
 
+/* Style rules for navigation area */
+nav {
+    background-color: #373684;
+} screen and (min-width: 550px), print {
+    
 nav li {
     display: block;
     font-size: 2em;
